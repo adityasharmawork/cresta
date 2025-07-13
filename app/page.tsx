@@ -49,9 +49,9 @@ export default function LandingPage() {
               className={`flex items-center space-x-4 transition-all duration-700 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-8"}`}
             >
               <div className="brand-logo">
-                <span className="text-background font-bold text-lg">C</span>
+                <span className="text-background font-bold text-md">C\AI</span>
               </div>
-              <span className="brand-text">Cresta</span>
+              <span className="brand-text">Cresta \ AI</span>
             </div>
 
             <div className="hidden md:flex items-center space-x-12">
@@ -104,7 +104,7 @@ export default function LandingPage() {
               className={`text-premium-5 mb-12 max-w-3xl mx-auto leading-relaxed transition-all duration-1000 delay-500 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}
             >
               <span className="neon-accent">
-                Cresta leverages advanced AI to transform your syllabus into structured learning paths, generate
+                Cresta AI leverages advanced AI to transform your syllabus into structured learning paths, generate
                 comprehensive study materials, and track your progress with unmatched precision.
               </span>
             </p>
@@ -259,7 +259,7 @@ export default function LandingPage() {
         <div className="container-premium">
           <div className="max-w-4xl mx-auto text-center mb-20 fade-in-premium">
             <h2 className="text-premium-2 mb-6">Trusted by Students Worldwide</h2>
-            <p className="text-premium-5 text-muted-foreground">See how Cresta is transforming education globally</p>
+            <p className="text-premium-5 text-muted-foreground">See how Cresta AI is transforming education globally</p>
           </div>
 
           <div className="grid-premium md:grid-cols-3 max-w-6xl mx-auto">
@@ -314,7 +314,7 @@ export default function LandingPage() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-20 fade-in-premium">
               <h2 className="text-premium-2 mb-6">Frequently Asked Questions</h2>
-              <p className="text-premium-5 text-muted-foreground">Everything you need to know about Cresta</p>
+              <p className="text-premium-5 text-muted-foreground">Everything you need to know about Cresta AI</p>
             </div>
 
             <Accordion type="single" collapsible className="space-y-6 fade-in-premium">
@@ -322,7 +322,7 @@ export default function LandingPage() {
                 {
                   question: "How does Cresta's AI technology work?",
                   answer:
-                    "Cresta uses advanced natural language processing and machine learning algorithms to analyze your syllabus and study materials, then generates structured learning paths, comprehensive notes, and adaptive assessments tailored to your specific curriculum and learning style.",
+                    "Cresta AI uses advanced natural language processing and machine learning algorithms to analyze your syllabus and study materials, then generates structured learning paths, comprehensive notes, and adaptive assessments tailored to your specific curriculum and learning style.",
                 },
                 {
                   question: "Is my data secure and private?",
@@ -330,14 +330,14 @@ export default function LandingPage() {
                     "Absolutely. We prioritize data security with enterprise-grade encryption and secure storage. All your study materials and progress are protected, and we never share your personal information with third parties.",
                 },
                 {
-                  question: "Can Cresta work with any subject or curriculum?",
+                  question: "Can Cresta AI work with any subject or curriculum?",
                   answer:
-                    "Yes, Cresta is designed to work with any subject matter, from STEM fields to humanities, languages, and professional certifications. Our AI adapts to create relevant content for any academic domain.",
+                    "Yes, Cresta AI is designed to work with any subject matter, from STEM fields to humanities, languages, and professional certifications. Our AI adapts to create relevant content for any academic domain.",
                 },
                 {
                   question: "Is there a free trial available?",
                   answer:
-                    "Yes, you can start using Cresta immediately with our comprehensive free tier. Experience the full power of AI-powered learning without any upfront commitment.",
+                    "Yes, you can start using Cresta AI immediately with our comprehensive free tier. Experience the full power of AI-powered learning without any upfront commitment.",
                 },
               ].map((item, index) => (
                 <AccordionItem key={index} value={`item-${index}`} className="premium-card border-0 px-8">
@@ -377,9 +377,9 @@ export default function LandingPage() {
             <div className="md:col-span-2">
               <div className="flex items-center space-x-4 mb-6">
                 <div className="brand-logo">
-                  <span className="text-background font-bold text-lg">C</span>
+                  <span className="text-background font-bold text-md">C\AI</span>
                 </div>
-                <span className="brand-text">Cresta</span>
+                <span className="brand-text">Cresta \ AI</span>
               </div>
               <p className="text-muted-foreground leading-relaxed max-w-md">
                 Professional AI-powered learning platform engineered for students and educators worldwide.
@@ -430,7 +430,7 @@ export default function LandingPage() {
           </div>
 
           <div className="border-t border-border/30 mt-12 pt-8 text-center text-muted-foreground">
-            <p>&copy; 2024 Cresta. All rights reserved. Engineered with precision.</p>
+            <p>&copy; 2025 Cresta. All rights reserved. Engineered with precision.</p>
           </div>
         </div>
       </footer>

@@ -12,7 +12,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Cresta - Premium AI Learning Platform",
+  title: "Cresta AI - Premium AI Learning Platform",
   description: "Professional AI-powered learning companion for advanced education and knowledge management.",
     generator: 'v0.dev'
 }

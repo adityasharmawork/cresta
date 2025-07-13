@@ -455,7 +455,7 @@ export default function LearningHub({ params }: { params: { id: string } }) {
               </Link>
               <div className="flex items-center space-x-3">
                 <div className="brand-logo">
-                  <span className="text-background font-bold text-lg">C</span>
+                  <span className="text-background font-bold text-md">C\AI</span>
                 </div>
                 <span className="text-premium-5 font-bold">{subject.name}</span>
               </div>

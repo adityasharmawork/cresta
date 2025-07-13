@@ -178,9 +178,9 @@ export default function Dashboard() {
             >
               <Link href="/" className="flex items-center space-x-4">
                 <div className="brand-logo">
-                  <span className="text-background font-bold text-lg">C</span>
+                  <span className="text-background font-bold text-md">C\AI</span>
                 </div>
-                <span className="brand-text">Cresta</span>
+                <span className="brand-text">Cresta \ AI</span>
               </Link>
             </div>
 
