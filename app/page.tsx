@@ -33,11 +33,11 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-background relative overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/20 pointer-events-none" />
-      <div className="absolute top-20 right-20 w-96 h-96 bg-neon/5 rounded-full blur-3xl floating-premium" />
+       {/* Background Elements */}
+      <div className="absolute inset-0 z-[-1] bg-gradient-to-br from-background via-background to-muted/20 pointer-events-none" />
+      <div className="absolute top-20 right-20 w-96 h-96 bg-neon/5 rounded-full blur-3xl floating-premium z-[-1]" />
       <div
-        className="absolute bottom-20 left-20 w-80 h-80 bg-foreground/5 rounded-full blur-3xl floating-premium"
+        className="absolute bottom-20 left-20 w-80 h-80 bg-foreground/5 rounded-full blur-3xl floating-premium z-[-1]"
         style={{ animationDelay: "3s" }}
       />
 
@@ -428,10 +428,10 @@ export default function LandingPage() {
               </ul>
             </div>
           </div>
-
+{/* 
           <div className="border-t border-border/30 mt-12 pt-8 text-center text-muted-foreground">
             <p>&copy; 2025 Cresta. All rights reserved. Engineered with precision.</p>
-          </div>
+          </div> */}
         </div>
       </footer>
     </div>
